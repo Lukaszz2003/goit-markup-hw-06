@@ -362,9 +362,48 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <h3 class="modal-h"> Zostaw swoje dane w formularzu poniżej</h3>
+     
         <button type="button" class="close-btn" data-modal-close>X</button>
+        <h3 class="modal-h"> Zostaw swoje dane w formularzu poniżej</h3>
+        
+        <label class="name">
+          <p class="imie">Imię</p> 
+          <input
+            class="window"
+            type="name"
+            name="name"
+          />
+        </label>
+        <label class="phone">
+          <p class="tel">telefon</p> 
+          <input
+            class="window"
+            type="tel"
+            name="phone_numer"
+          />
+        </label>
+        <label class="mail-one">
+          <p class="poczta">Email</p> 
+          <input
+            class="window"
+            type="email"
+                  name="email"
+          />
+        </label>
+        <label class="komentarz">
+          <p class="kom">Komentarz</p>
+          <textarea class="textarea" name="feedback" rows="5">
+          </textarea>
+        </label>
+        <label>
+          <p class="check-text">Oświadczam iż akceptuję <span class="text-new">Regulamin i Politykę Prywatności</span>.</p>
+          <input class="checkbox" type="checkbox" name="yes" value="yes" checked />
+          
+        </label>
+
+        <button class="button-modal" type="button">Wyślij</button>
       </div>
+      
     </div>
     <script src="./js/modal.js"></script>
   </body>

@@ -612,6 +612,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  cursor: pointer;
 }
 
 .form {
@@ -626,8 +627,129 @@ ul {
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 0.03em;
-  top: 30px;
+  top: 10px;
   left: 70px;
   color: #212121;
   position: absolute;
+}
+.name {
+  position: absolute;
+}
+
+.window {
+  position: absolute;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-left: 40px;
+}
+.imie {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.phone {
+  position: absolute;
+}
+
+.tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-top: 150px;
+  margin-left: 40px;
+}
+
+.mail-one {
+  position: absolute;
+}
+
+.poczta {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-top: 230px;
+  margin-left: 40px;
+}
+
+.komentarz {
+  position: absolute;
+}
+.kom {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-top: 310px;
+  margin-left: 40px;
+}
+
+.textarea {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-left: 40px;
+  resize: none;
+}
+
+.checkbox {
+  position: absolute;
+  margin-left: 54px;
+  margin-top: 467px;
+}
+
+.check-text {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+  margin-top: 462px;
+  margin-left: 74px;
+}
+
+.text-new {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.button-modal {
+  width: 200px;
+  height: 50px;
+  margin-top: 496px;
+  margin-left: 164px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
 }

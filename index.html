@@ -352,8 +352,12 @@
                   placeholder="E-mail"
                 />
               </label>
-
-              <button class="button-footer" type="submit">Zapisz się</button>
+<div>
+              <button class="button-footer" type="submit">Zapisz się<svg class="icon-send" width="24" height="24">
+                <use href="./images/icon2.svg#icon-icon-send"></use>
+              </svg></button>
+              
+              </div>
             </form>
             </div>
           </div>
@@ -364,15 +368,19 @@
       <div class="modal">
      
         <button type="button" class="close-btn" data-modal-close>X</button>
+        <div class="formula">
         <h3 class="modal-h"> Zostaw swoje dane w formularzu poniżej</h3>
         
         <label class="name">
-          <p class="imie">Imię</p> 
+          <span class="imie">Imię</span>
+          
           <input
             class="window"
             type="name"
-            name="name"
-          />
+            name="name"/>
+          <svg class="icon-name" width="12" height="12">
+            <use href="./images/icon2.svg#icon-name"></use>
+          </svg>
         </label>
         <label class="phone">
           <p class="tel">telefon</p> 
@@ -381,6 +389,9 @@
             type="tel"
             name="phone_numer"
           />
+          <svg class="icon-phone" width="12" height="12">
+            <use href="./images/icon2.svg#icon-phone"></use>
+          </svg>
         </label>
         <label class="mail-one">
           <p class="poczta">Email</p> 
@@ -389,19 +400,24 @@
             type="email"
                   name="email"
           />
+          <svg class="icon-mail-black" width="12" height="12">
+            <use href="./images/icon2.svg#icon-mail_black"></use>
+          </svg>
         </label>
         <label class="komentarz">
           <p class="kom">Komentarz</p>
           <textarea class="textarea" name="feedback" rows="5">
           </textarea>
         </label>
-        <label>
-          <p class="check-text">Oświadczam iż akceptuję <span class="text-new">Regulamin i Politykę Prywatności</span>.</p>
-          <input class="checkbox" type="checkbox" name="yes" value="yes" checked />
+      </div>
+        <label class="checkbox">
           
+          <input type="checkbox" name="yes" value="yes" />
+          <p class="check-text">Oświadczam iż akceptuję <span class="text-new">Regulamin i Politykę Prywatności</span>.</p>
         </label>
-
+      
         <button class="button-modal" type="button">Wyślij</button>
+      
       </div>
       
     </div>

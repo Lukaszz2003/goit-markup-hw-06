@@ -809,3 +809,12 @@ ul {
 .komentarz {
   display: inline-block;
 }
+.icon-yes {
+  position: absolute;
+  top: 127px;
+  left: 50px;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  fill: #212121;
+}
